@@ -94,7 +94,7 @@ services:
       - ./src:/var/www/html:delegated
     working_dir: /var/www/html
     user: laravel
-    entrypoint: [ "php", "/var/www/html/src/artisan" ]
+    entrypoint: [ "php", "/var/www/html/artisan" ]
     networks:
       - laravel
 
